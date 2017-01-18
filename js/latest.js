@@ -33,7 +33,8 @@
 
   // Get Commit Data from Github API
   function fetchCommits() {
-    var url = 'https://api.github.com/repos/unicodeveloper/resources-i-like/commits';
+    //var url = 'https://api.github.com/repos/unicodeveloper/resources-i-like/commits';
+    var url = 'https://github.com/dindinet/dindinet.github.io/commits/master'
 
     app.spinner.setAttribute('visible', true); 
 
